@@ -1,0 +1,19 @@
+<mat-card >
+    <mat-card-header>
+        <mat-card-title>
+            {{Curul.titulo}}
+        </mat-card-title>
+
+        <mat-card-subtitle>{{Curul.fecha}}</mat-card-subtitle>
+    </mat-card-header>
+
+    <img with="100px" height="200px" mat-card-image src="assets/cursos/{{Curul.id}}.jpg">
+    <mat-card-content>
+        <strong>{{Curul.idcat}}</strong>
+    </mat-card-content>
+    <mat-card-actions>
+        <button
+        [routerLink]="['/cursos',Curul.id]"
+        (click)="1">Detalles</button>
+    </mat-card-actions>
+</mat-card>

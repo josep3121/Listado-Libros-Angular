@@ -1,0 +1,41 @@
+<h1>Cursos Por Categorias</h1>
+<mat-divider></mat-divider>
+<br>
+<h2>Ciencias Exactas</h2>
+<div fxLayout="row wrap"
+  fxLayoutAlign="center"
+  fxLayoutGap="20px" >
+    <div fxFlex="30" *ngFor="let cursos of curso">
+        <app-curso-tarjeta  *ngIf="cursos.idcat=='Ciencias Exactas'"  [Curul]="cursos"></app-curso-tarjeta>
+        
+    </div>
+</div>
+<h2>Ciencias Sociales</h2>
+<div fxLayout="row wrap"
+fxLayoutAlign="center"
+fxLayoutGap="20px" >
+  <div fxFlex="30" *ngFor="let cursos of curso">
+      <app-curso-tarjeta  *ngIf="cursos.idcat=='Ciencias Sociales'"  [Curul]="cursos"></app-curso-tarjeta>
+      
+  </div>
+</div>
+<h2>Ciencias Económicas</h2>
+<div fxLayout="row wrap"
+fxLayoutAlign="center"
+fxLayoutGap="20px" >
+  <div fxFlex="30" *ngFor="let cursos of curso">
+      <app-curso-tarjeta  *ngIf="cursos.idcat=='Ciencias Económicas'"  [Curul]="cursos"></app-curso-tarjeta>
+      
+  </div>
+</div>
+<h2>Ciencias naturales</h2>
+<div fxLayout="row wrap"
+fxLayoutAlign="center"
+fxLayoutGap="20px" >
+  <div fxFlex="30" *ngFor="let cursos of curso">
+      <app-curso-tarjeta  *ngIf="cursos.idcat=='Ciencias naturales'"  [Curul]="cursos"></app-curso-tarjeta>
+      
+  </div>
+</div>
+
+  

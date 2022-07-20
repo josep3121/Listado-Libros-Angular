@@ -1,0 +1,27 @@
+Instrucciones
+
+1) Levantar el servicio de Angular con ng serve dentro de carpeta EduPruebaTec
+2) Levantar el servicio de server-Json en la carpeta cursos-server
+3) para ello Utilizar comando json-server --watch cat.json
+4) Ya teniendo levantado los datos ingresamos URL http://localhost:4200/cursos
+5) Vamos Al menu de Navegacion
+6) En el Home encontramos Lista de Tecnologias e Instrucciones
+7) Listar cursos lista todos los cursos
+8) Accedemos boton detalle nos muestra detalle del curso
+9) Listar Categorias nos lista los cursos agrupandolos por categoria
+
+Nota: De no levantar el Json-server no lista los cursos que 
+estan almacenaos en el archivo cat.json
+
+Tecnologias Usadas
+Html
+css
+Angular
+Angular FlexLayout
+Angular Material
+Typescrip
+Php
+Mysql
+Json server
+Postman
+API

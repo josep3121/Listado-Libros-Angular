@@ -1,0 +1,48 @@
+
+{
+
+    "cursos":[
+            {
+                "id":"1",
+                "img":"1",
+                "titulo":"Matematica pura",
+                "descripcion":"Ecuaiones Diferenciales Ordenadas",
+                "fecha":"2019-11-22",
+                "idcat":"Ciencias Exactas"
+            },
+
+            {
+                "id":"2",
+                "img":"2",
+                "titulo":"Sociales 4",
+                "descripcion":"Conociendo nuestras tribus",
+                "fecha":"2018-08-22",
+                "idcat":"Ciencias Sociales"
+            },
+            {
+                "id":"3",
+                "img":"3",
+                "titulo":"Economia 1",
+                "descripcion":"Conociendo el valor del interes Anual",
+                "fecha":"2019-06-12",
+                "idcat":"Ciencias Económicas"
+            },
+            {
+                "id":"4",
+                "img":"4",
+                "titulo":"Biologia",
+                "descripcion":"Estudio de la celula",
+                "fecha":"2019-05-01",
+                "idcat":"Ciencias naturales"
+            },
+            {
+                "id":"5",
+                "img":"5",
+                "titulo":"Macroeconomia",
+                "descripcion":"Desarrollo Economico Mundial",
+                "fecha":"2022-11-16",
+                "idcat":"Ciencias Económicas"
+            }
+
+    ]
+}
